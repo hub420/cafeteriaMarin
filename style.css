@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ccc;
+  }
+  
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/2000x600');
+    background-size: cover;
+    background-position: center;
+  }
+
+  header p {
+    font-size: 1.5rem;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body a {
+    font-size: 1.2rem;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+    color: #6c757d;
+  }
+  
+  footer ul.nav a {
+    color: #6c757d;
+  }
+  
+  footer ul.nav a:hover {
+    color: #343a40;
+  }
